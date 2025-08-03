@@ -1,0 +1,19 @@
+number = int(input("Enter a number = "))
+
+# Check if the number is even or odd
+if number % 2 == 0:
+    print(f"{number} is Even.")
+else:
+    print(f"{number} is Odd.")
+
+# Print even numbers from the number down to 1
+print("Even numbers from the entered number are:")
+for i in range(number, 0, -1):
+    if i % 2 == 0:
+        print(i)
+
+# Print odd numbers from the number down to 1
+print("Odd numbers from the entered number are:")
+for i in range(number, 0, -1):
+    if i % 2 != 0:
+        print(i)
